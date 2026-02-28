@@ -25,6 +25,9 @@ PCB was optional but a great learning curve.
 ### IC Pin 9
     Due to the +V plane, an island was left that floated and blocked Pin 9 of the LM3915 IC. This was a serious overlook but thankfully not a catastrophic error. The IC pin worked like it was grounded giving a volume "indicator" instead of a full volume bar.
 
+### Abscence of Test Points
+     Made the assembly and testing really hard and stressful without cause.
+
 ## Improvements
 
 ### Size
@@ -35,4 +38,5 @@ PCB was optional but a great learning curve.
 
 ## Overview
     For a first PCB looked pretty good and worked spectacularly.
+
 
