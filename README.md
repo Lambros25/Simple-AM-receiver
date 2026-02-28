@@ -13,12 +13,12 @@ PCB was optional but a great learning curve.
     This turned out to be a great decision as we had no amplitude issues when testing.
 
 ### Ground plane and Connector location
-    A solid ground plane was the best move to keep noise to a minimum with the exception of the area below the inductor, where parasitic capacitance would decalibrate our oscillation. The 2nd layer was also mostly ground for shielding reasons. Finally, the ground connector was placed in the middle in order to essentialy block digital ground (from the LEDs) from reaching the more sensitive signal area.
+    A solid ground plane (2nd layer) was the best move to keep noise to a minimum with the exception of the area below the inductor, where parasitic capacitance would decalibrate our oscillation. The 1st layer was also mostly ground for shielding reasons. Finally, the ground connector was placed in the middle in order to essentialy block digital ground (from the LEDs) from reaching the more sensitive signal area.
 
     In minimal testing this showed up to be a correct decision as grounding from the input area resulted in audible *pops* when the LEDs were switching.
 
 ### +V Plane
-    At the right side, in the "digital" area, many connectors as well as the LEDs required VCC, this was easily solved by adding a +V plane on the first layer of the PCB, resulting in a low resistance clean path for every component to get power. Signal in that area was not going to be audible and was not sensitive as such, noise reduction was not a number 1 priority.
+    At the right side, in the "digital" area, many connectors as well as the LEDs required VCC, this was easily solved by adding a +V plane on the first layer of the PCB, resulting in a low resistance clean path for every component to get power. Signal in that area was not going to be audible and was not sensitive, as such, noise reduction was not a number 1 priority.
 
 ## Errors
 
@@ -34,5 +34,5 @@ PCB was optional but a great learning curve.
     No need for ground (-) input.
 
 ## Overview
-
     For a first PCB looked pretty good and worked spectacularly.
+
