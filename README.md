@@ -8,7 +8,7 @@ PCB was optional but a great learning curve.
 ## PCB Design Choices
 
 ### Transformer
-     The only difference from the intended schematic is the transformer shape. It was meant to be wrapped outside the core and about 6 turns on the primary and 60 on the secondary, however I felt like the loesses would be too great to achieve oscillation at 729kHz with a 30pf-60pf capacitor. Thus I instead did 2 and 21 turns inside the core taking advantage fully of the magnetic flux.
+     The only difference from the intended schematic is the transformer shape. It was meant to be wrapped outside the core and about 6 turns on the primary and 60 on the secondary, however I felt like the losses would be too great to achieve oscillation at 729kHz with a 30pf-60pf capacitor. Thus I instead did 2 and 21 turns inside the core taking advantage fully of the magnetic flux.
     
     This turned out to be a great decision as we had no amplitude issues when testing.
 
@@ -34,4 +34,5 @@ PCB was optional but a great learning curve.
     No need for ground (-) input.
 
 ## Overview
+
     For a first PCB looked pretty good and worked spectacularly.
